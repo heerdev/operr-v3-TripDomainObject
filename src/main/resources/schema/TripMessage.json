@@ -1,0 +1,27 @@
+{
+  "title": "TripMessage",
+  "type": "object",
+  "properties": {
+    "tripId": {
+      "type": "integer",
+      "description": "The person's first name."
+    },
+    "customerName": {
+      "type": "string",
+      "description": "The person's last name."
+    },
+    "driverName": {
+      "type": "integer",
+      "description": "Age in years which must be equal to or greater than zero."
+    },
+    "pickupLocation": {
+      "type": "integer",
+      "description": "Age in years which must be equal to or greater than zero."
+    },
+    "destination": {
+      "type": "integer",
+      "description": "Age in years which must be equal to or greater than zero."
+    }
+
+  }
+}
