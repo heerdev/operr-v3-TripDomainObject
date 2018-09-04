@@ -59,7 +59,8 @@
 				<version>0.5.1</version>
 				<configuration>
 					<sourceDirectory>${basedir}/src/main/resources/schema</sourceDirectory>
-					<targetPackage>com.operr.types</targetPackage>
+					<targetPackage>com.operr.tripmessage</targetPackage>
+					<outputDirectory>${project.build.directory}/generated-sources</outputDirectory>
 				</configuration>
 				<executions>
 					<execution>
